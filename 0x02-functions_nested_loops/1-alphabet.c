@@ -8,6 +8,8 @@
 
 void print_alphabet(void)
 
+	print _alphabet();
+
 {
 	char i;
        
@@ -16,17 +18,12 @@ void print_alphabet(void)
        
 	while (i <= 'z')
 	{
-		_putchar(i);
+		putchar(i);
 		i++;
 	}
 
 	_putchar('\n');
-
-}
-
-int main(void)
-{
-	print_alphabet();
 	return (0);
 
 }
+
